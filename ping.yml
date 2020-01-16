@@ -1,4 +1,4 @@
-- hosts: linux-corp
+- host: 192.168.1.29
   tasks:
   - name: Ping hosts
     ping:
