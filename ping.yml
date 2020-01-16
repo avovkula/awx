@@ -1,4 +1,4 @@
+- hosts: linux-corp
   tasks:
-
   - name: Ping hosts
     ping:
