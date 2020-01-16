@@ -1,4 +1,4 @@
-- host: 192.168.1.29
+- hosts: test
   tasks:
   - name: Ping hosts
     ping:
