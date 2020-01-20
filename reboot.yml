@@ -1,0 +1,7 @@
+- hosts: linux-corp
+  gather_facts: no
+  tasks:    
+    - name: shutdown
+      shell: sleep 3 && shutdown -r now
+      async: 1
+      poll: 0
